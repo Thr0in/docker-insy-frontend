@@ -7,7 +7,7 @@ echo "export const environment = {" > ${ENV_PATH}
 echo "apiUrl: '${API_URL}'," >> ${ENV_PATH}
 echo "besyUrl: '${BESY_URL}'," >> ${ENV_PATH}
 echo "footerLinks: [${FOOTER_LINKS}]," >> ${ENV_PATH}
-echo "bugReportUrl: 'https://github.com/kr1pt0n05/Inventarisierungsmodul/issues/new/choose'," >> ${_ENV_PATH}
+echo "bugReportUrl: 'https://github.com/kr1pt0n05/Inventarisierungsmodul/issues/new/choose'," >> ${ENV_PATH}
 echo "priceRegEx: /^\s*(\d+([.,]\d{1,2})?|(\d{1,3}(\.\d{3})*(,\d{1,2})?)|(\d{1,3}(,\d{3})*(\.\d{1,2})?))\s*€?\s*$/," >> tmp/frontend/src/environments/environment.ts
 echo "clientId: '${CLIENT_ID}'," >> ${ENV_PATH}
 echo "issuer: '${ISSUER_URL}'," >> ${ENV_PATH}
